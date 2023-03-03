@@ -151,7 +151,7 @@ def Units(z):
 			Units[SimpExp[j][1]]= Unit_Exp
 			
 	print(Units)
-	# this following list is to complete with composed units
+	# this following list is supposed to be completed with composed units
 	extraunits = [('N', (('kg', 1), ('m', 1), ('s', -2))), ('A', (('C', 1), ('s', -1))), ('Pa', (('kg', 1), ('m', -1), ('s', -2))), ('V', (('kg', 1), ('m', 2), ('s', -2), ('C', -1))),('R', (('J',1),('K',-1),('mol',-1)))]
 	for i in extraunits:
 		if i[0] in Units:
